@@ -1,0 +1,31 @@
+{
+    "name": "lhd-vinyl-rewrites-jsx",
+    "version": "0.1.0",
+    "main": "index.js",
+    "type": "module",
+    "scripts": {
+        "dev": "vinxi dev",
+        "build": "vinxi build",
+        "vercel-build": "vinxi build --preset vercel",
+        "start": "vinxi start",
+        "prettier": "prettier app --check",
+        "prettier:fix": "prettier app --write"
+    },
+    "author": "",
+    "license": "ISC",
+    "description": "",
+    "dependencies": {
+        "@tanstack/react-router": "^1.114.29",
+        "@tanstack/react-start": "^1.114.29",
+        "react": "^19.0.0",
+        "react-dom": "^19.0.0",
+        "vinxi": "^0.5.3"
+    },
+    "devDependencies": {
+        "@types/react": "^19.0.12",
+        "@types/react-dom": "^19.0.4",
+        "@vitejs/plugin-react": "^4.3.4",
+        "prettier": "^3.5.3",
+        "typescript": "^5.8.2"
+    }
+}
